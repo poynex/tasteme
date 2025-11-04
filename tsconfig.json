@@ -1,42 +1,42 @@
-// {
-//   "compilerOptions": {
-//     "target": "ES2022",
-//     "useDefineForClassFields": true,
-//     "module": "ESNext",
-//     "lib": ["ES2022", "DOM", "DOM.Iterable"],
-//     "types": ["vite/client"],
-//     "skipLibCheck": true,
-
-//     /* Bundler mode */
-//     "moduleResolution": "bundler",
-//     "allowImportingTsExtensions": true,
-//     "verbatimModuleSyntax": true,
-//     "moduleDetection": "force",
-//     "noEmit": true,
-
-//     /* Linting */
-//     "strict": true,
-//     "noUnusedLocals": true,
-//     "noUnusedParameters": true,
-//     "erasableSyntaxOnly": true,
-//     "noFallthroughCasesInSwitch": true,
-//     "noUncheckedSideEffectImports": true,
-//     "jsx": "react-jsx"
-//   },
-//   "include": ["src"]
-// }
-
 {
   "compilerOptions": {
-    "target": "ESNext",
+    "target": "ES2022",
+    "useDefineForClassFields": true,
     "module": "ESNext",
-    "moduleResolution": "Node",
-    "strict": true,
-    "jsx": "react-jsx",
-    "types": ["vite/client", "node"],
+    "lib": ["ES2022", "DOM", "DOM.Iterable"],
+    "types": ["vite/client"],
     "skipLibCheck": true,
-    "esModuleInterop": true,
-    "allowJs": true
+
+    /* Bundler mode */
+    "moduleResolution": "bundler",
+    "allowImportingTsExtensions": true,
+    "verbatimModuleSyntax": true,
+    "moduleDetection": "force",
+    "noEmit": true,
+
+    /* Linting */
+    "strict": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "erasableSyntaxOnly": true,
+    "noFallthroughCasesInSwitch": true,
+    "noUncheckedSideEffectImports": true,
+    "jsx": "react-jsx"
   },
-  "include": ["src", "vite.config.ts"]
+  "include": ["src"]
 }
+
+// {
+//   "compilerOptions": {
+//     "target": "ESNext",
+//     "module": "ESNext",
+//     "moduleResolution": "Node",
+//     "strict": true,
+//     "jsx": "react-jsx",
+//     "types": ["vite/client", "node"],
+//     "skipLibCheck": true,
+//     "esModuleInterop": true,
+//     "allowJs": true
+//   },
+//   "include": ["src", "vite.config.ts"]
+// }
