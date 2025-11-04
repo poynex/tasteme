@@ -28,13 +28,16 @@
 
 {
   "compilerOptions": {
-    "types": ["vite/client"],
-    "moduleResolution": "node",
-    "module": "esnext",
-    "target": "esnext",
+    "target": "ESNext",
+    "useDefineForClassFields": true,
+    "module": "ESNext",
+    "moduleResolution": "Node",
+    "strict": true,
     "jsx": "react-jsx",
-    "skipLibCheck": true
+    "types": ["vite/client", "node"],
+    "skipLibCheck": true,
+    "allowJs": true,
+    "esModuleInterop": true
   },
-  "include": ["src"]
+  "include": ["src", "vite.config.ts"]
 }
-
